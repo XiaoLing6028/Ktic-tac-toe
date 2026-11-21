@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc1f5"/>
+      <stop offset="1" stop-color="#1d99f3"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base tile -->
+  <rect x="8" y="10" width="112" height="112" rx="14" fill="#000" opacity="0.15"/>
+  <rect x="8" y="6" width="112" height="112" rx="14" fill="url(#bg)"/>
+  <rect x="8" y="6" width="112" height="112" rx="14" fill="url(#shade)"/>
+
+  <!-- grid -->
+  <g stroke="#eff0f1" stroke-width="5" stroke-linecap="round">
+    <line x1="48" y1="22" x2="48" y2="102"/>
+    <line x1="80" y1="22" x2="80" y2="102"/>
+    <line x1="24" y1="46" x2="104" y2="46"/>
+    <line x1="24" y1="78" x2="104" y2="78"/>
+  </g>
+
+  <!-- X marks (Breeze dark) -->
+  <g stroke="#232629" stroke-width="6" stroke-linecap="round">
+    <path d="M26 24 L40 38 M40 24 L26 38"/>
+    <path d="M57 55 L71 69 M71 55 L57 69"/>
+    <path d="M89 86 L103 100 M103 86 L89 100"/>
+  </g>
+
+  <!-- O marks (Breeze orange) -->
+  <g fill="none" stroke="#f67400" stroke-width="6">
+    <circle cx="96" cy="31" r="8"/>
+    <circle cx="33" cy="93" r="8"/>
+  </g>
+
+  <!-- winning strike -->
+  <line x1="24" y1="22" x2="105" y2="102" stroke="#fdbc4b" stroke-width="5" stroke-linecap="round" opacity="0.95"/>
+</svg>

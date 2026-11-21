@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Ktic-tac-toe
+GenericName=Tic-Tac-Toe Game
+Comment=Play Tic-Tac-Toe against a friend or a bot
+Exec=ktictactoe
+Icon=io.github.XiaoLing6028.Ktictactoe
+Terminal=false
+StartupNotify=true
+StartupWMClass=ktictactoe
+Categories=Qt;KDE;Game;BoardGame;
+Keywords=tictactoe;tic-tac-toe;noughts;crosses;board;game;xo;
+X-KDE-StartupNotify=true

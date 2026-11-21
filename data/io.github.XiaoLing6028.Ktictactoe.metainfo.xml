@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<component type="desktop-application">
+  <id>io.github.XiaoLing6028.Ktictactoe</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-or-later</project_license>
+
+  <name>Ktic-tac-toe</name>
+  <summary>Play Tic-Tac-Toe against a friend or a bot</summary>
+
+  <developer id="io.github.xiaoling6028"> <!-- AppStream requires lowercase here -->
+    <name>Ktic-tac-toe contributors</name>
+  </developer>
+
+  <description>
+    <p>
+      Ktic-tac-toe is a small, friendly Tic-Tac-Toe game for the KDE desktop.
+      It follows your color scheme and is fully playable with the keyboard.
+    </p>
+    <p>Game modes:</p>
+    <ul>
+      <li>Human vs Human, taking turns on the same computer</li>
+      <li>Human vs Bot, with four difficulty levels: Easy, Medium, Hard and Impossible</li>
+    </ul>
+    <p>
+      The Impossible bot plays perfectly using the minimax algorithm: the best
+      you can do is a draw.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.XiaoLing6028.Ktictactoe.desktop</launchable>
+  <provides>
+    <binary>ktictactoe</binary>
+  </provides>
+
+  <categories>
+    <category>Game</category>
+    <category>BoardGame</category>
+  </categories>
+  <keywords>
+    <keyword>tic-tac-toe</keyword>
+    <keyword>noughts and crosses</keyword>
+  </keywords>
+
+  <url type="homepage">https://github.com/XiaoLing6028/Ktic-tac-toe</url>
+  <url type="bugtracker">https://github.com/XiaoLing6028/Ktic-tac-toe/issues</url>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#4fc1f5</color>
+    <color type="primary" scheme_preference="dark">#1d6fa8</color>
+  </branding>
+
+  <content_rating type="oars-1.1"/>
+
+  <releases>
+    <release version="1.0.0" date="2026-11-21">
+      <description>
+        <p>First release: Human vs Human and Human vs Bot with four difficulty levels.</p>
+      </description>
+    </release>
+  </releases>
+</component>
