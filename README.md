@@ -11,6 +11,9 @@ A small, KDE-friendly Tic-Tac-Toe game written in C++ with Qt 6.
 
 The game follows your Plasma color scheme (light or dark). You can play it entirely from the keyboard: arrow keys and Space, or keys **1–9**. **Ctrl+N** starts a new game.
 
+<img width="458" height="627" alt="image" src="https://github.com/user-attachments/assets/1d4b1861-8a54-463b-bec5-87822690c767" />
+
+
 ## Source tree
 
 ```
