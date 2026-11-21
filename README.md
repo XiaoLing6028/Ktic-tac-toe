@@ -89,3 +89,7 @@ the `APP_ID` default in `CMakeLists.txt`, the names of both `data/` files, the `
 Ktic-tac-toe is free software, licensed under the GNU Affero General Public License, version 3 or (at your option) any later version (`AGPL-3.0-or-later`). See [LICENSE](LICENSE).
 
 The AppStream metadata file is licensed under CC0-1.0, as AppStream requires.
+## Disclaimer
+
+This is an unofficial community project and is not affiliated with or endorsed by KDE.
+KDE® is a registered trademark of KDE e.V. Qt is a registered trademark of The Qt Company Ltd.
